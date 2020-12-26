@@ -1,8 +1,3 @@
-/*
- * @Author: DukeHouse
- * @Date: 2020-12-26 22:07:44
- * @LastEditors: DukeHouse
- */
 /****************************************************************
  * version.h
  * GrblHoming - zapmaker fork on github
