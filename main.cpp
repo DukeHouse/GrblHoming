@@ -33,6 +33,7 @@ int main(int argc, char *argv[])
 {
     // setup logging
     Log4Qt::LogManager::rootLogger();
+    qputenv("QT_MAC_WANTS_LAYER", "1");
     //Log4Qt::TTCCLayout *p_layout = new Log4Qt::TTCCLayout(Log4Qt::TTCCLayout::ISO8601);
     //Log4Qt::PatternLayout *p_layout = new Log4Qt::PatternLayout(Log4Qt::PatternLayout::TTCC_CONVERSION_PATTERN);
     p_layout = new Log4Qt::PatternLayout("%d %p (%c) - %m%n");
